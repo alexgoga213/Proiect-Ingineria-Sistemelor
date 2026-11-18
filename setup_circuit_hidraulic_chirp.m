@@ -46,7 +46,7 @@ fmax=wf/2/pi*10;
 Ain=1.5;
 
 %% Data acquisition (use t, u, y to perform system identification)
-out = sim("circuitul_hidraulic_R2022b.slx");
+out = sim("circuit_hidraulic_R2022b.slx");
 
 t = out.tout;
 u = out.u;
